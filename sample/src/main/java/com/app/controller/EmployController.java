@@ -23,7 +23,7 @@ public class EmployController {
     @RequestMapping(value="add",method=RequestMethod.POST)
 public String addEmploy(@ModelAttribute("employ") Employ e){
 		
-		/*if(e.getEmpName() == 0){divya
+		/*if(e.getEmpName() == 0){
 			//new employ, add it
 			this.service.addEmploy(e);
 		}
