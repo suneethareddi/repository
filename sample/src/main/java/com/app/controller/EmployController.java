@@ -24,7 +24,7 @@ public class EmployController {
 public String addEmploy(@ModelAttribute("employ") Employ e){
 		
 		/*if(e.getEmpName() == 0){divyasai
-			//new employ, add it
+			//new employ, add it sunitha
 			this.service.addEmploy(e);
 		}
 		else{
