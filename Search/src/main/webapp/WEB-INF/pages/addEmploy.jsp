@@ -1,0 +1,28 @@
+
+<html>
+<head>
+<title>Insert here</title>
+</head>
+<body>
+<form method="POST" action="add.html">
+<table>
+<tr>
+<td>Employee Name</td>
+<td><input type=text name="empName"></td>
+</tr>
+<tr>
+<td>Employee Salary</td>
+<td><input type=text name="empSalary"></td>
+</tr>
+<tr>
+<td>Employee Age</td>
+<td><input type=text name="empAge"></td>
+</tr>
+<tr>
+<td colspan="2"><input type="submit" value="submit"/></td>
+</tr>
+</table>
+</form>
+<a href="list">get list</a>
+</body>
+</html>
